@@ -1,0 +1,58 @@
+const ProductData = [
+    {   
+        id: 1,
+        name: "Product 1",
+        img: "/img/adidas_1.jpg",
+        price: 409,
+        featured: true,
+        top_selling: false,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+    {
+        id: 2,
+        name: "Product 2",
+        img: "/img/adidas_2.jpg",
+        price: 499,
+        featured: true,
+        top_selling: true,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+    {
+        id: 3,
+        name: "Product 3",
+        img: "/img/adidas_3.jpg",
+        price: 209,
+        featured: false,
+        top_selling: false,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+    {
+        id: 4,
+        name: "Product 4",
+        img: "/img/nike_3.png",
+        price: 189,
+        featured: false,
+        top_selling: true,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+    {
+        id: 5,
+        name: "Product 5",
+        img: "/img/nike_4.png",
+        price: 189,
+        featured: true,
+        top_selling: false,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+    {
+        id: 6,
+        name: "Product 6",
+        img: "/img/nike_2.png",
+        price: 59,
+        featured: false,
+        top_selling: true,
+        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium alias suscipit ratione ab beatae quas.",
+    },
+]
+
+export default ProductData;
