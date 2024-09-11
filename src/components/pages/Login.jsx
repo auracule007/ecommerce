@@ -28,7 +28,7 @@ function Login() {
       return;
     } 
     try {
-      const res = await fetch("http://localhost:8000/api/login", {
+      const res = await fetch("https://shoesbystores.onrender.com/api/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -45,7 +45,7 @@ function Login() {
         if (cartDataItem) {
           console.log("request made");
           await Promise.all(cartDataItem?.products?.map(async (item) => {
-            const response = await fetch("http://localhost:8000/api/add-to-cart", {
+            const response = await fetch("https://shoesbystores.onrender.com/api/add-to-cart", {
               method: "POST",
               headers: {
                 "Content-Type": "application/json",
